@@ -13,7 +13,7 @@ def promising(state,color):
         color_of_neighbor = colors_of_states.get(neighbor)
         if color_of_neighbor == color:
             return False
-        return True
+    return True
     
 def get_color_for_state(state):
     for color in colors:
